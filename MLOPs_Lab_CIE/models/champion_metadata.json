@@ -1,0 +1,9 @@
+{
+    "experiment_name": "skydrop-flight-time-min",
+    "domain": "drone_delivery",
+    "best_model": "LinearRegression",
+    "best_metric_name": "mae",
+    "best_metric_value": 3.543241,
+    "random_state": 42,
+    "test_size": 0.2
+}

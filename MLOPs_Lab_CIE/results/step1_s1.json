@@ -1,0 +1,18 @@
+{
+    "experiment_name": "skydrop-flight-time-min",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 3.543241,
+            "rmse": 3.960061
+        },
+        {
+            "name": "RandomForest",
+            "mae": 4.27204,
+            "rmse": 4.603076
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "mae",
+    "best_metric_value": 3.543241
+}

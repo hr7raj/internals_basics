@@ -1,0 +1,16 @@
+{
+    "health_endpoint": "/health",
+    "predict_endpoint": "/infer",
+    "port": 8000,
+    "health_response": {
+        "alive": true,
+        "service": "SkyDrop flight_time_min API"
+    },
+    "test_input": {
+        "payload_kg": 2.4,
+        "distance_km": 7.9,
+        "wind_speed_kmph": 18.8,
+        "altitude_m": 55.3
+    },
+    "prediction": 25.012651
+}
